@@ -1,0 +1,10 @@
+<form>
+  Email:<br>
+  <input type="text" placeholder="ewe@gmail.com" ([ngModel])="email"><br>
+  Password:<br>
+  <input type="password"  placeholder="password" ([ngModel])="password" ><br><br>
+  <!--ngModel link u to the backEnd variable i.e passwrd email on loginC.ts-->
+  <button type="submit" (click)="booking()">Login</button>
+</form>
+<!-- dont forget to import formModules from app.modele-->
+

@@ -1,0 +1,22 @@
+#body{
+    position: absolute; /*able to be moved*/
+    top: 0; /*no margining*/
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex; /*flexibility, stretch*/
+    flex-direction: row; /*direction u want them to stratch*/
+}
+
+#left-menu{
+    width: 300px;
+    height: 100%; /*to complete the screen*/
+    background-color: antiquewhite;
+}
+
+#content{
+    width: 100%;/*takes the remaining space*/
+    height: 100%;
+    background-color:darkseagreen;
+    flex-grow: 1;
+}
